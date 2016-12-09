@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+.mainbox {
+	margin-top: 50px;
+}
+
+.forgot-password {
+	float: right;
+	font-size: 80%;
+	position: relative;
+	top: -10px;
+}
+
+.login-panel-body {
+	padding-top: 30px;
+}
+
+.login-form .login-form-group {
+	margin-bottom: 25px;
+}
+
+.horizontal-line {
+	border-top: 1px solid#888;
+	padding-top: 15px;
+	margin-top: 15px;
+	font-size: 85%;
+}
+
+.footer {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 19px;
+	border-top: 1px solid #e5e5e5;
+}
+
+@media screen and (min-width: 768px) {
+	.footer {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}

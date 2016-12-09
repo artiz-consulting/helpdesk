@@ -1,0 +1,38 @@
+{
+	"bundles": [
+		{
+			"type": "css",
+			"name": "vendor.css",
+			"files": [
+				"vendor/bootstrap/bootstrap.css"
+			]
+		},
+		{
+			"type": "css",
+			"name": "dashboard.css",
+			"files": [
+				"dashboard/dashboard.css"
+			]
+		},
+		{
+			"type": "js",
+			"name": "vendor.js",
+			"files": [
+				"vendor/angular/angular.js",
+				"vendor/angular/angular-ui-router.js",
+				"vendor/angular/angular-messages.js"
+			]
+		},
+		{
+			"type": "js",
+			"name": "dashboard.js",
+			"files": [
+				"dashboard/dashboard.js",
+				"dashboard/dashboard.routes.js",
+
+				"dashboard/login/login.module.js",
+				"dashboard/login/login.controller.js"
+			]
+		}
+	]
+}

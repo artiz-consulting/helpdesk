@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+		xmlns:th="http://www.thymeleaf.org"
+		xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+	<head>
+		<title>Dashboard</title>
+		<link rel="stylesheet" type="text/css" th:href="@{/default/css/vendor/bootstrap/bootstrap.css}" />
+		<link rel="stylesheet" type="text/css" th:href="@{/default/css/dashboard/dashboard.css}" />
+	</head>
+	<body data-ng-app="dashboard">
+		<div data-ui-view=""></div>
+
+		<div class="footer">
+			<div class="container">
+				<p>&copy; No Name. Current env: <span th:text="${env}">Environment</span></p>
+			</div>
+		</div>
+
+		<script type="text/javascript" th:src="@{/default/js/vendor/angular/angular.js}"></script>
+		<script type="text/javascript" th:src="@{/default/js/vendor/angular/angular-ui-router.js}"></script>
+		<script type="text/javascript" th:src="@{/default/js/vendor/angular/angular-messages.js}"></script>
+
+		<script type="text/javascript" th:src="@{/default/js/dashboard/dashboard.js}"></script>
+		<script type="text/javascript" th:src="@{/default/js/dashboard/dashboard.routes.js}"></script>
+
+		<script type="text/javascript" th:src="@{/default/js/dashboard/login/login.module.js}"></script>
+		<script type="text/javascript" th:src="@{/default/js/dashboard/login/login.controller.js}"></script>
+	</body>
+</html>
