@@ -1,5 +1,9 @@
 @CHARSET "ISO-8859-1";
 
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+	display: none !important;
+}
+
 .mainbox {
 	margin-top: 50px;
 }
