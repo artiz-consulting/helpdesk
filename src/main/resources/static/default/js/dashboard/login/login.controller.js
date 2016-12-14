@@ -17,7 +17,7 @@
 
 		vm.hasLoginError = angular.isDefined($stateParams.error);
 		vm.hasLoggedOut = angular.isDefined($stateParams.logout);
-		vm.alphanumericRegex = /^[A-z0-9_.-]*$/;
+		vm.alphanumericRegex = /^[A-z0-9_.@-]*$/;
 		vm.username = {
 			minlength: 5,
 			maxlength: 30
